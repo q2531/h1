@@ -1,5 +1,5 @@
-import unittest
-class Test091(unittest.TestCase):
+import pytest
+class Test091:
     def test01(self):
         assert 1==1
         print("1==1")
